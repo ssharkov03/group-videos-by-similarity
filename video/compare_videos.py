@@ -109,3 +109,5 @@ class VideoSimilarityModel:
                 break
         del short_video_features, long_video_features
         return comparison_info
+
+

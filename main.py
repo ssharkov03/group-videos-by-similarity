@@ -4,8 +4,8 @@ def main():
     from utils.pretty_output import output_prettifier
 
     local_save_path = "saved_data/"
-    main_bucket_name = 'mid'
-    tmp_bucket_name = 'mid-tmp'
+    main_bucket_name = 'your-name'
+    tmp_bucket_name = 'your-name-tmp'
     logs_path = 'output/'
     target_log_name = 'meta_data_latest.pkl'
     model_path = "model/model_checkpoint/"
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     from utils.logger import LOGGING_CONFIG
     from logging.config import dictConfig
 
-    # from utils.bug_fixes import fix_download_bug
+    # from utils.bug_fixes import fix_download_bug  # for restarting from checkpoint 
     # fix_download_bug()
 
     dictConfig(LOGGING_CONFIG)

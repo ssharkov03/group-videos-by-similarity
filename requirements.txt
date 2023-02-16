@@ -1,3 +1,4 @@
+# only python==3.7 is valid!
 tensorflow-gpu==1.15
 numpy>=1.9
 tqdm>=4.2
